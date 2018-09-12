@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body>
+
+    <h1 class="text-center" data-bind="text: app_name"></h1>
+
+    <hr/>
+
+    <textarea class="middlr" placeholder="Enter a value" type="text" name="new_value_input" data-bind="textInput: new_value_input"></textarea>
+    <br/>
+    <button class="middlr" type="button" name="submit_new_value_btn" data-bind="click: submit_new_value">Submit</button>
+    <div data-bind="if: editing">
+      <br/>
+      <button class="middlr" type="button" name="submit_new_value_btn" data-bind="click: cancel_editing">Cancel Editing</button>
+    </div>
+
+    <br/>
+    <br/>
+
+    <ul class="value_list" data-bind="foreach: list">
+      <li class="transition" data-bind="attr: { id: 'item-' + $data.id }">
+        <p>
+          <strong><span class="item-text" data-bind="text: $data.value"></span></strong><br/>
+          <a href="#" class="edit-value transition" data-bind="click: $parent.edit_value">edit</a> | <a href="#" class="delete-value transition" data-bind="click: $parent.delete_value">delete</a>
+        </p>
+      </li>
+    </ul>
+
+  </body>
+</html>

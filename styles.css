@@ -1,0 +1,53 @@
+body {
+  background: #f2f2f2;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+  max-width: 100%;
+}
+
+.transition {
+  -webkit-transition: transition 0.3s;
+  -moz-transition: transition 0.3s;
+  -o-transition: transition 0.3s;
+  -ms-transition: transition 0.3s;
+  transition: 0.3s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.middlr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.delete-value {
+  color: red;
+}
+.item-text {
+  font-size: 20px;
+}
+
+.value_list {
+  margin: 0px;
+  padding: 0px;
+  width: 500px;
+  max-width: 100%;
+}
+
+.value_list > li {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid grey;
+  background: #fbfbfb;
+  margin-bottom: 15px;
+}
+
+.value_list > li:hover {
+  background: #fff;
+}
