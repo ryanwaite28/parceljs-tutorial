@@ -1,4 +1,4 @@
-# Parcel JS Example
+# Parcel JS Tutorial
 
 ![Parcel JS](favicon.ico)
 
