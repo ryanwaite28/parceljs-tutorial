@@ -44,7 +44,13 @@ with a front end project. Create your project
 
 ### How to run this example locally
 
-This repo also has an example app. To run locally:
+This repo also has an example app. <br/>
+
+Git: https://github.com/ryanwaite28/parceljs-demo <br/>
+Live: https://ryanwaite28.github.io/parceljs-demo/dist/index.html
+
+
+To run locally:
 
 1. Get the project
   * clone with `git clone https://github.com/ryanwaite28/parceljs-example.git`
